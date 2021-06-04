@@ -1,0 +1,18 @@
+.heading {
+  margin-top: 3rem;
+  font-weight: 500;
+  width: 60rem;
+  text-align: center;
+  font-size: 3rem;
+  background: linear-gradient(180deg, #00c6ff, #0072ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subheading {
+  font-weight: 600;
+  color: black;
+  text-align: center;
+  width: 52rem;
+}

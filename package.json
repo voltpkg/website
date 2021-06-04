@@ -5,11 +5,18 @@
   "devDependencies": {
     "@types/jest": "26.0.23",
     "@types/node": "15.12.0",
-    "solid-js": "^0.26.5",
+    "autoprefixer": "^10.2.6",
     "solid-scripts": "0.0.56",
     "typescript": "4.3.2"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/icons": "^4.11.2",
+    "material-ui": "^0.20.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "solid-js": "^0.26.5"
+  },
   "scripts": {
     "start": "solid-scripts start",
     "build": "solid-scripts build",
