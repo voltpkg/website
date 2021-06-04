@@ -1,0 +1,51 @@
+.home {
+  width: 100vw;
+  height: 100vh;
+}
+.home .nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 5em;
+  background-color: #252424;
+}
+
+.home .nav .logo {
+  margin: 10px;
+}
+
+.home .homemain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+}
+.home .homemain h2 {
+  background: linear-gradient(180deg, #18ef7b, #039e8f);
+  -webkit-background-clip: text;
+  background-clip: text;
+  font-size: 2em;
+  -webkit-text-fill-color: transparent;
+}
+.home .homemain .search .packagesearch {
+  height: 2.5em;
+  font-size: 1em;
+  outline: none;
+  padding: 10px;
+  background-color: transparent;
+  border: 0.5px solid #3b3b3b;
+  color: white;
+  width: 50em;
+  border-radius: 15px 15px;
+}
+
+.home .homemain .search .popsearch {
+  color: #0095f8;
+  font-size: large;
+  margin: 10px;
+}
+.home .homemain .search .popsearch a {
+  color: #0095f8;
+  text-decoration: none;
+}
