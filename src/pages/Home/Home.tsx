@@ -31,10 +31,6 @@ export const Home = () => {
             className='packagesearch'
             placeholder='Search over 1M+ packages'
           />
-          <div className='popsearch'>
-            Popular Searches: <a href='/'>volt</a> <a href='/'>solidjs</a>{' '}
-            <a href='/'>react</a>
-          </div>
         </div>
         <div className='get_started_btn'>Get Started</div>
       </div>
