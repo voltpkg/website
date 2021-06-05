@@ -2,10 +2,11 @@
   width: 100vw;
   height: 100vh;
 }
+
 .home .nav {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-around;
   height: 5em;
   background-color: #252424;
 }
@@ -14,12 +15,35 @@
   margin: 10px;
 }
 
+.home .nav .section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .nav .section .links {
+  color: #d5ded7;
+  font-weight: 400;
+  margin: 1rem;
+}
+
+.home .nav .section .contact_icon {
+  width: 1.7rem;
+  margin: 1rem;
+  color: white;
+}
+
+.home .nav .title_text {
+  font-weight: 400;
+  color: #d5ded7;
+}
+
 .home .homemain {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: 80%;
+  height: 70%;
 }
 .home .homemain h2 {
   background: linear-gradient(180deg, #18ef7b, #039e8f);
@@ -27,9 +51,11 @@
   background-clip: text;
   font-size: 2em;
   -webkit-text-fill-color: transparent;
+  margin-bottom: 2rem;
 }
+
 .home .homemain .search .packagesearch {
-  height: 2.5em;
+  height: 1.75rem;
   font-size: 1em;
   outline: none;
   padding: 10px;
@@ -37,15 +63,48 @@
   border: 0.5px solid #3b3b3b;
   color: white;
   width: 50em;
-  border-radius: 15px 15px;
+  border-radius: 10px;
 }
 
 .home .homemain .search .popsearch {
   color: #0095f8;
   font-size: large;
-  margin: 10px;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
 }
+
 .home .homemain .search .popsearch a {
   color: #0095f8;
   text-decoration: none;
+}
+
+.home .homemain .get_started_btn {
+  height: 2.7rem;
+  width: 13rem;
+  font-size: 19px;
+  font-weight: 400;
+  background-color: #04a08d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.stat_info {
+  text-align: center;
+  color: #6d6f6e;
+}
+
+.stat_name {
+  margin: 0px;
+}
+
+.stat_val {
+  margin: 0px;
 }
