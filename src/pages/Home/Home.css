@@ -8,7 +8,7 @@
   align-items: center;
   justify-content: space-around;
   height: 4em;
-  box-shadow: 0 8px 32px 0 rgba(58, 59, 66, 0.37);
+  box-shadow: 0 4px 8px 0 rgba(58, 59, 66, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid rgba(255, 255, 255, 0.18);
@@ -94,7 +94,7 @@
   width: 13rem;
   font-size: 17px;
   font-weight: 400;
-  box-shadow: 0 8px 32px 0 rgba(58, 59, 66, 0.37);
+  box-shadow: 0 4px 16px 0 rgba(58, 59, 66, 0.37);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
@@ -108,7 +108,7 @@
   transition: all 0.3s;
 }
 .home .homemain .get_started_btn:hover {
-  box-shadow: 0 4px 16px 0 rgba(58, 59, 66, 0.37);
+  box-shadow: 0 1px 4px 0 rgba(58, 59, 66, 0.37);
 }
 .stats {
   display: flex;
