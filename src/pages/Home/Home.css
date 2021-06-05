@@ -24,7 +24,7 @@
 .home .nav .section .links {
   color: #d5ded7;
   font-weight: 400;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   margin: 1rem;
 }
 
@@ -37,7 +37,7 @@
 .home .nav .title_text {
   font-weight: 600;
   color: #d5ded7;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
 }
 
 .home .homemain {
@@ -54,7 +54,7 @@
   font-size: 2em;
   -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 }
 
 .home .homemain .search .packagesearch {
@@ -66,7 +66,7 @@
   border: 2px solid #3b3b3b;
   color: white;
   width: 50em;
-  font-family: "Poppins";
+  font-family: 'Fira Code';
   border-radius: 12px;
 }
 
@@ -75,7 +75,7 @@
   font-size: large;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
-  font-family: "Poppins";
+  font-family: 'Poppins';
 
   /* font-family: 'Montserrat'; */
 }
@@ -92,7 +92,7 @@
 .home .homemain .get_started_btn {
   height: 2.7rem;
   width: 13rem;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 400;
   box-shadow: 0 8px 32px 0 rgba(58, 59, 66, 0.37);
   backdrop-filter: blur(10px);
@@ -103,7 +103,7 @@
   justify-content: center;
   align-items: center;
   border-radius: 7px;
-  font-family: "Poppins";
+  font-family: 'Poppins';
   cursor: pointer;
   transition: all 0.3s;
 }
@@ -119,7 +119,7 @@
 .stat_info {
   text-align: center;
   color: #6d6f6e;
-  font-family: "Fira Code";
+  font-family: 'Fira Code';
 }
 
 .stat_name {
@@ -131,16 +131,16 @@
 }
 
 @font-face {
-  font-family: "Montserrat";
-  src: url("../../assets/fonts/Montserrat-Regular.ttf");
+  font-family: 'Montserrat';
+  src: url('../../assets/fonts/Montserrat-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Fira Code";
-  src: url("../../assets/fonts/FiraCode-Regular.ttf");
+  font-family: 'Fira Code';
+  src: url('../../assets/fonts/FiraCode-Regular.ttf');
 }
 
 @font-face {
-  font-family: "Poppins";
-  src: url("../../assets/fonts/Poppins-Regular.ttf");
+  font-family: 'Poppins';
+  src: url('../../assets/fonts/Poppins-Regular.ttf');
 }
