@@ -10,7 +10,6 @@ export const Home = () => {
       <div className='nav'>
         <div className='section'>
           <img src={Logo} alt='' width='50em' className='logo' />
-          <h1 className='title_text'>Volt</h1>
         </div>
         <div className='section'>
           <h3 className='links'>Products</h3>
@@ -25,7 +24,7 @@ export const Home = () => {
         </div>
       </div>
       <div className='homemain'>
-        <h2>Fastest NodeJS package manager</h2>
+        <h2>The Fastest Node.js Package Manager.</h2>
         <div className='search'>
           <input
             type='text'

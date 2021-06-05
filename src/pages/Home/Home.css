@@ -7,12 +7,14 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  height: 5em;
-  background-color: #252424;
+  height: 4em;
+  background-color: #1b1b1b;
 }
 
 .home .nav .logo {
-  margin: 10px;
+  margin-right: 7px;
+  width: 9vh;
+  height: 5vw;
 }
 
 .home .nav .section {
@@ -24,6 +26,7 @@
 .home .nav .section .links {
   color: #d5ded7;
   font-weight: 400;
+  font-family: 'Montserrat';
   margin: 1rem;
 }
 
@@ -34,8 +37,9 @@
 }
 
 .home .nav .title_text {
-  font-weight: 400;
+  font-weight: 600;
   color: #d5ded7;
+  font-family: 'Montserrat';
 }
 
 .home .homemain {
@@ -52,6 +56,7 @@
   font-size: 2em;
   -webkit-text-fill-color: transparent;
   margin-bottom: 2rem;
+  font-family: 'Fira Code';
 }
 
 .home .homemain .search .packagesearch {
@@ -60,10 +65,11 @@
   outline: none;
   padding: 10px;
   background-color: transparent;
-  border: 0.5px solid #3b3b3b;
+  border: 2px solid #3b3b3b;
   color: white;
   width: 50em;
-  border-radius: 10px;
+  font-family: 'Fira Code';
+  border-radius: 12px;
 }
 
 .home .homemain .search .popsearch {
@@ -71,6 +77,9 @@
   font-size: large;
   margin-top: 0.5rem;
   margin-bottom: 2rem;
+  font-family: 'Fira Code';
+
+  /* font-family: 'Montserrat'; */
 }
 
 .home .homemain .search .popsearch a {
@@ -78,16 +87,21 @@
   text-decoration: none;
 }
 
+.home .homemain .search :focus {
+  border: #00a57c 2px solid;
+}
+
 .home .homemain .get_started_btn {
   height: 2.7rem;
   width: 13rem;
   font-size: 19px;
   font-weight: 400;
-  background-color: #04a08d;
+  background-color: #00926e;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: 10px;
+  border-radius: 7px;
+  font-family: 'Montserrat';  
 }
 
 .stats {
@@ -99,6 +113,7 @@
 .stat_info {
   text-align: center;
   color: #6d6f6e;
+  font-family: 'Fira Code';
 }
 
 .stat_name {
@@ -107,4 +122,14 @@
 
 .stat_val {
   margin: 0px;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('../../assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../../assets/fonts/FiraCode-Regular.ttf');
 }
