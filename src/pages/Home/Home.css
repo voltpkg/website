@@ -107,9 +107,11 @@
   cursor: pointer;
   transition: all 0.3s;
 }
+
 .home .homemain .get_started_btn:hover {
   box-shadow: 0 1px 4px 0 rgba(58, 59, 66, 0.37);
 }
+
 .stats {
   display: flex;
   justify-content: space-evenly;
@@ -118,7 +120,7 @@
 
 .stat_info {
   text-align: center;
-  color: #6d6f6e;
+  color: #7d998c;
   font-family: 'Fira Code';
 }
 
