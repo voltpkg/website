@@ -47,14 +47,22 @@
   flex-direction: column;
   height: 70%;
 }
+
 .home .homemain h2 {
   background: linear-gradient(180deg, #18ef7b, #039e8f);
   -webkit-background-clip: text;
   background-clip: text;
   font-size: 2em;
+  margin-bottom: 0px;
   -webkit-text-fill-color: transparent;
-  margin-bottom: 2rem;
+  /* margin-bottom: 2rem; */
   font-family: 'Poppins';
+}
+
+h4 {
+  font-family: 'Montserrat';
+  margin-bottom: 2rem;
+  font-weight: 400;
 }
 
 .home .homemain .search .packagesearch {
@@ -62,6 +70,7 @@
   font-size: 1em;
   outline: none;
   padding: 10px;
+  padding-left: 20px;
   background-color: transparent;
   border: 2px solid #3b3b3b;
   color: white;
