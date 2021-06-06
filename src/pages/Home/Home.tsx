@@ -3,8 +3,10 @@ import github from '../../assets/github.svg'
 import twitter from '../../assets/twitter.svg'
 import facebook from '../../assets/facebook.svg'
 import './Home.css'
+import {Counter} from '../../widgets/Counter';
 
 export const Home = () => {
+  
   return (
     <div className='home'>
       <div className='nav'>
@@ -40,15 +42,22 @@ export const Home = () => {
       </div>
       <div className='stats'>
         <div className='stat_info'>
-          <h1 className='stat_val'>1098787</h1>
+          <h1 className='stat_val'>
+            {/* {state.count} */}
+            <Counter  end={1600} start={1000}/>
+          </h1>
           <h3 className='stat_name'>packages</h3>
         </div>
         <div className='stat_info'>
-          <h1 className='stat_val'>200</h1>
+          <h1 className='stat_val'>
+            <Counter  end={200} start={0}/>
+          </h1>
           <h3 className='stat_name'>GB saved</h3>
         </div>
         <div className='stat_info'>
-          <h1 className='stat_val'>5,987</h1>
+          <h1 className='stat_val'>
+            <Counter  end={1589} start={1300}/>
+          </h1>
           <h3 className='stat_name'>hours saved</h3>
         </div>
       </div>
