@@ -3,6 +3,7 @@ import github from '../../assets/github.svg'
 import twitter from '../../assets/twitter.svg'
 import facebook from '../../assets/facebook.svg'
 import './Home.css'
+import { Counter } from '../../widgets/counter'
 
 export const Home = () => {
   return (
@@ -21,7 +22,6 @@ export const Home = () => {
           <a href='https://github.com/voltpkg/volt'>
             <img className='contact_icon' src={github} alt='github' />
           </a>
-          {/* <a href="https://"></a> */}
           <img className='contact_icon' src={twitter} alt='twitter' />
           <img className='contact_icon' src={facebook} alt='facebook' />
         </div>
@@ -40,15 +40,21 @@ export const Home = () => {
       </div>
       <div className='stats'>
         <div className='stat_info'>
-          <h1 className='stat_val'>1098787</h1>
-          <h3 className='stat_name'>packages</h3>
+          <h1 className='stat_val'>
+            <Counter end={1600} start={1300} />
+          </h1>
+          <h3 className='stat_name'>costs saved</h3>
         </div>
         <div className='stat_info'>
-          <h1 className='stat_val'>200</h1>
+          <h1 className='stat_val'>
+            <Counter end={200000} start={199700} />
+          </h1>
           <h3 className='stat_name'>GB saved</h3>
         </div>
         <div className='stat_info'>
-          <h1 className='stat_val'>5,987</h1>
+          <h1 className='stat_val'>
+            <Counter end={1589} start={1289} />
+          </h1>
           <h3 className='stat_name'>hours saved</h3>
         </div>
       </div>
