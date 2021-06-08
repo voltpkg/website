@@ -41,19 +41,19 @@ export const Home = () => {
       <div className='stats'>
         <div className='stat_info'>
           <h1 className='stat_val'>
-            <Counter end={1600} start={1300} />
+            <Counter end={1600} start={0} unit=' $' />
           </h1>
-          <h3 className='stat_name'>costs saved</h3>
+          <h3 className='stat_name'>in costs saved</h3>
         </div>
         <div className='stat_info'>
           <h1 className='stat_val'>
-            <Counter end={200000} start={199700} />
+            <Counter end={200000} start={195000} unit=' MB' />
           </h1>
-          <h3 className='stat_name'>GB saved</h3>
+          <h3 className='stat_name'>disk space saved</h3>
         </div>
         <div className='stat_info'>
           <h1 className='stat_val'>
-            <Counter end={1589} start={1289} />
+            <Counter end={1589} start={0} />
           </h1>
           <h3 className='stat_name'>hours saved</h3>
         </div>

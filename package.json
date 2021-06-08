@@ -9,7 +9,8 @@
     "solid-scripts": "0.0.56",
     "typescript": "4.3.2"
   },
-  "dependencies": {},
+  "dependencies": {
+  },
   "scripts": {
     "start": "solid-scripts start",
     "build": "solid-scripts build",
