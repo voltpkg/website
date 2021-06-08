@@ -1,5 +1,6 @@
 <h1 align="center">Volt</h1>
-<h3 align="center">The official repository for the [volt website](https://www.voltpkg.com)</h3>
+<h3 align="center">The official repository for the volt website</h3>
+
 <br>
 
 <p align="center">
