@@ -4,6 +4,7 @@ import twitter from '../../assets/twitter.svg'
 import facebook from '../../assets/facebook.svg'
 import './Home.css'
 import { Counter } from '../../widgets/counter'
+import { Search } from '../../widgets/Search/Search'
 
 export const Home = () => {
   return (
@@ -30,30 +31,26 @@ export const Home = () => {
         <h2>The Fastest Node.js Package Manager.</h2>
         <h4>Clean. Lightweight. Robust. Effecient.</h4>
         <div className='search'>
-          <input
-            type='text'
-            className='packagesearch'
-            placeholder='Search over 1M+ packages'
-          />
+          <Search />
         </div>
         <div className='get_started_btn'>Get Started</div>
       </div>
       <div className='stats'>
         <div className='stat_info'>
           <h1 className='stat_val'>
-            <Counter end={1600} start={0} unit=' $' />
+            <Counter end={1600} start={1300} />
           </h1>
-          <h3 className='stat_name'>in costs saved</h3>
+          <h3 className='stat_name'>costs saved</h3>
         </div>
         <div className='stat_info'>
           <h1 className='stat_val'>
-            <Counter end={200000} start={195000} unit=' MB' />
+            <Counter end={200000} start={199700} />
           </h1>
-          <h3 className='stat_name'>disk space saved</h3>
+          <h3 className='stat_name'>GB saved</h3>
         </div>
         <div className='stat_info'>
           <h1 className='stat_val'>
-            <Counter end={1589} start={0} />
+            <Counter end={1589} start={1289} />
           </h1>
           <h3 className='stat_name'>hours saved</h3>
         </div>
